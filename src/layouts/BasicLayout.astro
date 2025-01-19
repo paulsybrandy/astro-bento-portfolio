@@ -20,23 +20,23 @@ const schema =
     ? {
         "@context": "http://schema.org",
         "@type": "Person",
-        name: "Gianmarco",
+        name: "Paul",
         url: Astro.url.origin,
         sameAs: [LINKS.linkedin, LINKS.github],
         image: `${Astro.url.origin}/og-image.png`,
-        jobTitle: "Freelance Frontend Developer",
+        jobTitle: "Technophile",
         worksFor: {
           "@type": "Organization",
           name: "Self-Employed",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "Italy",
-            addressCountry: "IT",
+            addressLocality: "United States of America",
+            addressCountry: "USA",
           },
         },
         nationality: {
           "@type": "Country",
-          name: "Italy",
+          name: "United States of America",
         },
       }
     : {
@@ -51,13 +51,13 @@ const schema =
         image: `${Astro.url.origin}/og-image.png`, //TODO: dynamic
         author: {
           "@type": "Person",
-          name: "Gianmarco",
+          name: "Paul",
           url: Astro.url.origin,
           sameAs: [LINKS.linkedin, LINKS.github],
         },
         publisher: {
           "@type": "Organization",
-          name: "Gianmarco",
+          name: "Paul",
           logo: {
             "@type": "ImageObject",
             url: `${Astro.url.origin}/og-image.png`,
@@ -119,16 +119,8 @@ const schema =
 
 <style is:global>
   @font-face {
-    font-family: "CabinetGrotesk";
-    src: url("/fonts/CabinetGrotesk-Variable.ttf") format("truetype-variations");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 100 1000;
-  }
-  @font-face {
-    font-family: "Satoshi";
-    src: url("/fonts/Satoshi-Variable.ttf") format("truetype-variations");
+    font-family: "DK Crayon Crumble";
+    src: url("/fonts/dk-crayon-crumble.ttf") format("truetype-variations");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -137,7 +129,7 @@ const schema =
 
   body {
     margin: 0;
-    font-family: "Satoshi", sans-serif;
+    font-family: "DK Crayon Crumble", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -147,10 +139,10 @@ const schema =
   h4,
   h5,
   h6 {
-    font-family: "Cabinet Grotesk", sans-serif;
+    font-family: "DK Crayon Crumble", sans-serif;
   }
   p {
-    font-family: "Satoshi";
+    font-family: "DK Crayon Crumble";
   }
 
   b {

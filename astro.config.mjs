@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import svelte from '@astrojs/svelte';
 import sitemap from "@astrojs/sitemap";
 import netlify from "@astrojs/netlify";
 import robotsTxt from "astro-robots-txt";
@@ -12,14 +13,13 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gianmarcocavallo.com/",
+  site: "https://paulsybrandy.com/",
   integrations: [
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://gianmarcocavallo.com/sitemap-index.xml",
-        "https://gianmarcocavallo.com/sitemap-0.xml",
-      ],
+        "",
+            ],
     }),
     solidJs(),
     UnoCSS({ injectReset: true }),
