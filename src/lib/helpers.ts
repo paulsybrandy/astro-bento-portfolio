@@ -7,7 +7,7 @@ export function getCurrentTimeInNew_York(): Date {
   const now = new Date();
 
   // Convert the UTC time to New York's time
-  const offsetNew_York = -5; // New York is (UTC-5), but you might need to adjust this based on Daylight Saving Time
+  const offsetNew_York = 0; // New York is (UTC-5), but you might need to adjust this based on Daylight Saving Time
   now.setHours(now.getUTCHours() + offsetNew_York);
 
   return now;
