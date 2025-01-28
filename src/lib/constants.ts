@@ -7,7 +7,8 @@ export const LINKS = {
   email: "paulsybrandy@fastmail.com<",
   deviantart: "https://www.deviantart.com/paulneocube",
   linkinbio: "https://paulsybrandy.bio.link",
-  mywebsite: "https://paulsybrandy.com"
+  mywebsite: "https://paulsybrandy.com",
+  notion: "https://paulneocube.notion.site/Paul-Sybrandy-aka-Neocube-183484ba87ea806d9b2cd9395704e2eb"
 };
 
 export const loaderAnimation = [
