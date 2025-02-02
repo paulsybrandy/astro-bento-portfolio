@@ -8,7 +8,8 @@ export const LINKS = {
   deviantart: "https://www.deviantart.com/paulneocube",
   linkinbio: "https://paulsybrandy.bio.link",
   mywebsite: "https://paulsybrandy.com",
-  notion: "https://paulneocube.notion.site/Paul-Sybrandy-aka-Neocube-183484ba87ea806d9b2cd9395704e2eb"
+  notion: "https://paulneocube.notion.site/Paul-Sybrandy-aka-Neocube-183484ba87ea806d9b2cd9395704e2eb",
+  gem: "https://paulsybrandy.com/gem"
 };
 
 export const loaderAnimation = [
